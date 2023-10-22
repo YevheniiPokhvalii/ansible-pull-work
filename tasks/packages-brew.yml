@@ -6,7 +6,7 @@
     recurse: true
     patterns:
       # - "{{ 'brew' | regex_escape() }}"
-      - '^\/bin\/brew$'
+      - '^//bin//brew$'
       # - '^[a-z]{1,5}_.*log$'
   register: brew_path
 
