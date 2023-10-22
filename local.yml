@@ -8,6 +8,7 @@
 
   tasks:
     - include: tasks/packages.yml
+    - include: tasks/packages-brew.yml
 
   # - name: Get the username running the deploy
   #   become: false
