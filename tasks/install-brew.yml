@@ -8,10 +8,10 @@
   when: not brew_exists.stat.exists
   register: brew_install
 
-- debug:
-    msg: "{{ item.stdout }}"
-  loop: "{{ brew_install.results }}"
+# - debug:
+#     msg: "{{ item.stdout }}"
+#   loop: "{{ brew_install.results }}"
 
-# - debug: msg="{{ brew_install.stdout }}"
+- debug: msg="{{ brew_install }}"
 
 # - debug: msg="{{ brew_install.stderr }}"
