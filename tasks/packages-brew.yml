@@ -28,5 +28,5 @@
     # path: "{{ brew_path.stdout }}"
     path: "{{ brew_path }}"
     state: present
-    # update_homebrew: true
+    update_homebrew: true
   become: false

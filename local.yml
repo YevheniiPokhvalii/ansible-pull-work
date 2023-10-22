@@ -7,6 +7,7 @@
 
   pre_tasks:
     - include: tasks/system-upgrade.yml
+    - include: tasks/install-brew.yml
 
   tasks:
     - include: tasks/packages.yml

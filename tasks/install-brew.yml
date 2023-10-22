@@ -1,0 +1,13 @@
+- name: Check if Homebrew is already installed
+  stat:
+    path: "{{ brew_path }}"
+  register: brew_exists
+
+- name: Install Homebrew
+  script: scripts/install-homebrew.sh
+  when: not brew_exists.stat.exists
+  register: brew_install
+
+- debug: msg="{{ brew_install.stdout }}"
+
+- debug: msg="{{ brew_install.stderr }}"
