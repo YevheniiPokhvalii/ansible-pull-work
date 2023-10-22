@@ -1,6 +1,6 @@
 - name: Check brew path
   ansible.builtin.find:
-    paths: '/home/*/bin'
+    paths: '/home'
     file_type: link
     use_regex: true
     recurse: true
