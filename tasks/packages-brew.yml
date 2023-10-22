@@ -1,13 +1,17 @@
+# - name: Check brew path
+#   ansible.builtin.find:
+#     paths: '/home/*/bin'
+#     file_type: link
+#     use_regex: true
+#     recurse: true
+#     patterns:
+#       # - "{{ 'brew' | regex_escape() }}"
+#       - '^brew$'
+#       # - '^[a-z]{1,5}_.*log$'
+#   register: brew_path
+
 - name: Check brew path
-  ansible.builtin.find:
-    paths: '/home/*/bin'
-    file_type: link
-    use_regex: true
-    recurse: true
-    patterns:
-      # - "{{ 'brew' | regex_escape() }}"
-      - '^brew$'
-      # - '^[a-z]{1,5}_.*log$'
+  command: find /home -type f -name 'brew' | grep '/bin/brew'
   register: brew_path
 
 - name: Install brew packages
