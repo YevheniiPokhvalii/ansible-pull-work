@@ -3,6 +3,7 @@
     name:
       - htop
       - vim
+      - nmap
 
 - name: get the username running the deploy
   become: false
