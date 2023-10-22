@@ -1,17 +1,18 @@
 - name: Check brew path
   ansible.builtin.find:
-    paths: /home
+    paths: /home/linuxbrew/.linuxbrew/bin/
     file_type: link
     use_regex: true
     recurse: true
     patterns:
-      - 'brew'
+      - {{ 'brew' | regex_escape() }}
+      # - 'brew'
       # - '^[a-z]{1,5}_.*log$'
   register: brew_path
 
 - name: Install brew packages
   community.general.homebrew:
     name: maven
-    path: "{{ brew_path.stdout }}"
+    path: "{{ brew_path.files.path }}"
     state: present
     update_homebrew: true
