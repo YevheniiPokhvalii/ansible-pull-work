@@ -1,0 +1,42 @@
+---
+- hosts: localhost
+  connection: local
+  become: true
+
+  pre_tasks:
+    - include: tasks/system-upgrade.yml
+
+  tasks:
+    - include: tasks/packages.yml
+
+  # - name: Get the username running the deploy
+  #   become: false
+  #   local_action: command whoami
+  #   register: username_on_the_host
+
+  # - name: copy .bashrc file
+  #   copy:
+  #    src: files/bashrc
+  #    dest: /home/jay/.bashrc
+  #    owner: jay
+  #    group: jay
+
+  # - name: add ansible user
+  #   user:
+  #     name: velociraptor
+  #     system: yes
+
+  # - name: set up sudo for ansible user
+  #   copy:
+  #     src: files/sudoer_velociraptor
+  #     dest: /etc/sudoers.d/velociraptor
+  #     owner: root
+  #     group: root
+  #     mode: 0440
+
+  # - name: add ansible-pull cron job
+  #   cron:
+  #     name: ansible auto-provision
+  #     user: velociraptor
+  #     minute: "*/10"
+  #     job: ansible-pull -o -U https://github.com/jlacroix82/ansible_pull_tutorial.git
