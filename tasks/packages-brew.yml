@@ -18,6 +18,6 @@
 - name: Install brew packages
   community.general.homebrew:
     name: maven
-    path: "{{ brew_path.files | json_query('[*].path') }}"
+    path: "{{ brew_path.files | json_query('[?ends_with(@, `/bin/brew`)].path') }}"
     state: present
     update_homebrew: true
