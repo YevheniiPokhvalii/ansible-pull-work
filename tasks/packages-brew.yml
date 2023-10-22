@@ -1,5 +1,6 @@
 - name: Check brew path
-  command: /usr/bin/which brew
+  # command: /usr/bin/which brew
+  command: echo hello
   ignore_errors: true
   register: brew_path
 
