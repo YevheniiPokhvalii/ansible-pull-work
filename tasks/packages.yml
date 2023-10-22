@@ -9,3 +9,8 @@
   become: false
   local_action: command whoami
   register: username_on_the_host
+
+- name: Install brew packages
+  community.general.homebrew:
+    name: maven
+    state: present
