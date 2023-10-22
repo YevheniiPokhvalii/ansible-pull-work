@@ -17,16 +17,16 @@
 #     state: present
 #     update_homebrew: true
 
-- name: Check brew path
-  ansible.builtin.shell: |
-    find /home -type f -name 'brew' | grep '/bin/brew'
-  register: brew_path
+# - name: Check brew path
+#   ansible.builtin.shell: |
+#     find /home -type f -name 'brew' | grep '/bin/brew'
+#   register: brew_path
 
 - name: Install brew packages
   community.general.homebrew:
     name: maven
     # path: "{{ brew_path.stdout }}"
-    path: '/home/linuxbrew/.linuxbrew/Homebrew/bin/'
+    path: "{{ brew_path }}"
     state: present
-    update_homebrew: true
+    # update_homebrew: true
   become: false
