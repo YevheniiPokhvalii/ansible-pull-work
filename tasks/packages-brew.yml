@@ -25,6 +25,7 @@
 - name: Install brew packages
   community.general.homebrew:
     name: maven
-    path: "{{ brew_path.stdout }}"
+    # path: "{{ brew_path.stdout }}"
+    path: '/home/linuxbrew/.linuxbrew/Homebrew/bin/'
     state: present
     update_homebrew: true
