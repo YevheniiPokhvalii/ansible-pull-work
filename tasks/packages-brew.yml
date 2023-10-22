@@ -1,5 +1,5 @@
 - name: Check brew path
-  command: which brew
+  command: /usr/bin/which brew
   register: brew_path
 
 - name: Install brew packages
