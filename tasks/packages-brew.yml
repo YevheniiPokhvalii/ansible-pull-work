@@ -1,7 +1,11 @@
 - name: Check brew path
-  command: which brew
-  # command: echo hello
-  ignore_errors: true
+  ansible.builtin.find:
+    paths: /home
+    file_type: file
+    use_regex: yes
+    patterns:
+      - 'brew'
+      # - '^[a-z]{1,5}_.*log$'
   register: brew_path
 
 - name: Install brew packages
