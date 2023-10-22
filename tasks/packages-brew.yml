@@ -5,7 +5,7 @@
     use_regex: true
     recurse: true
     patterns:
-      - 'brew | regex_escape()'
+      - 'brew'
       # - '^[a-z]{1,5}_.*log$'
   register: brew_path
 
