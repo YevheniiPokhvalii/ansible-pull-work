@@ -11,7 +11,8 @@
 #   register: brew_path
 
 - name: Check brew path
-  command: find /home -type f -name 'brew' | grep '/bin/brew'
+  ansible.builtin.shell: |
+    find /home -type f -name 'brew' | grep '/bin/brew'
   register: brew_path
 
 - name: Install brew packages
