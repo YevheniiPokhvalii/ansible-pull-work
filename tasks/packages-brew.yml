@@ -1,0 +1,10 @@
+- name: Check brew path
+  command: which brew
+  register: brew_path
+
+- name: Install brew packages
+  community.general.homebrew:
+    name: maven
+    path: "{{ brew_path.stdout }}"
+    state: present
+    update_homebrew: true
