@@ -26,7 +26,7 @@
   community.general.homebrew:
     name: maven
     # path: "{{ brew_path.stdout }}"
-    # path: "{{ brew_path }}"
+    path: "{{ brew_path }}"
     state: present
     # update_homebrew: true
   become: false
