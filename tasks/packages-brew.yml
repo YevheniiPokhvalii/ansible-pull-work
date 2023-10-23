@@ -29,7 +29,7 @@
     path: "{{ brew_path }}"
     state: present
     # update_homebrew: true
-  become: false
+  # become: false
   register: brew_package_status
 
 - debug: msg="{{ brew_package_status }}"
