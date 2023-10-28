@@ -22,15 +22,22 @@
 #     find /home -type f -name 'brew' | grep '/bin/brew'
 #   register: brew_path
 
+# - name: Install brew packages
+#   community.general.homebrew:
+#     name: maven
+#     # path: "{{ brew_path.stdout }}"
+#     path: "{{ brew_path }}"
+#     state: present
+#     # update_homebrew: true
+#   # become: false
+#   become_user: "{{ linux_user }}"
+#   register: brew_package_status
+
+# - debug: msg="{{ brew_package_status }}"
+
 - name: Install brew packages
-  community.general.homebrew:
-    name: maven
-    # path: "{{ brew_path.stdout }}"
-    path: "{{ brew_path }}"
-    state: present
-    # update_homebrew: true
-  # become: false
-  become_user: "{{ linux_user }}"
+  ansible.builtin.shell: |
+    brew install maven
   register: brew_package_status
 
 - debug: msg="{{ brew_package_status }}"
