@@ -37,7 +37,7 @@
 
 - name: Install brew packages
   ansible.builtin.shell: |
-    "{{ brew_path }}"/brew install maven
+    /home/linuxbrew/.linuxbrew/bin/brew install maven
   become: true
   become_user: "{{ linux_user }}"
   register: brew_package_status
