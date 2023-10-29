@@ -59,6 +59,8 @@ git config --global user.email johndoe@example.com
 # Enable systemd in WSL
 https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/<br>
 
+## Check-restore bashrc
+
 ## WSL
 files/
 scripts/
