@@ -25,6 +25,12 @@ dism /online /get-features
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 ```
 
+## Configure git
+```
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+```
+
 ## Microsoft Store
 - python
 - Powershell
@@ -38,11 +44,21 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 - GIMP
 - Slack
 - Draw.io
+- OBS
+- GIMP
+- Zoom
+- Telegram
+- Firefox
+- Microsoft PowerToys
+- Adobe Acrobat Reader DC
+
+# Enable systemd in WSL
+https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/<br>
 
 ## WSL
-
+scripts/
 
 ## Else
 - Intellij
 - Office
-
+- Teams
