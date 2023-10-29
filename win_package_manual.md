@@ -31,6 +31,8 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
 
+# Install tools via winget import
+
 ## Microsoft Store
 - python
 - Powershell
@@ -52,10 +54,13 @@ git config --global user.email johndoe@example.com
 - Microsoft PowerToys
 - Adobe Acrobat Reader DC
 
+# Sync VScode profile
+
 # Enable systemd in WSL
 https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/<br>
 
 ## WSL
+files/
 scripts/
 
 ## Else
