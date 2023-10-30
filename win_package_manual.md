@@ -37,7 +37,6 @@ git config --global user.email johndoe@example.com
 - python
 - Powershell
 - VSCode
-- Intellij
 - Windows Terminal
 - Windows Subsystem for Linux
 - DBeaver
