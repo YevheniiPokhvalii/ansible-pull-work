@@ -50,6 +50,9 @@
 				},
 				{
 					"PackageIdentifier" : "Oracle.VirtualBox"
+				},
+				{
+					"PackageIdentifier" : "Joplin.Joplin"
 				}
 			],
 			"SourceDetails" : 
