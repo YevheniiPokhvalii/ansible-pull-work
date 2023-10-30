@@ -1,3 +1,4 @@
 wslu
 adduser
 vim
+build-essential
