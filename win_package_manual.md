@@ -68,3 +68,4 @@ scripts/
 - Intellij
 - Office
 - Teams
+- Cisco Packet Tracer
