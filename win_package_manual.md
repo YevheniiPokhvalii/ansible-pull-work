@@ -69,3 +69,4 @@ scripts/
 - Office
 - Teams
 - Cisco Packet Tracer
+- sdkman

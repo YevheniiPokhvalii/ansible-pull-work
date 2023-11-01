@@ -53,6 +53,9 @@
 				},
 				{
 					"PackageIdentifier" : "Joplin.Joplin"
+				},
+				{
+					"PackageIdentifier" : "7zip.7zip"
 				}
 			],
 			"SourceDetails" : 
