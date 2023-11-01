@@ -27,4 +27,3 @@ gcc
 go
 java
 node
-sdkman
