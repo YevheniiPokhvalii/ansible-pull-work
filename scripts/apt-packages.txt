@@ -2,3 +2,4 @@ wslu
 adduser
 vim
 build-essential
+gnome-keyring

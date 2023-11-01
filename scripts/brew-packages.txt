@@ -25,3 +25,6 @@ boxes
 toilet
 gcc
 go
+java
+node
+sdkman
