@@ -27,3 +27,4 @@ gcc
 go
 java
 node
+postgresql
