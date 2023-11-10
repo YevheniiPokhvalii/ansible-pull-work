@@ -1,5 +1,6 @@
 wslu
 adduser
 vim
+uidmap
 build-essential
 gnome-keyring
