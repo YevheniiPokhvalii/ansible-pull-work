@@ -46,7 +46,6 @@ git config --global user.email johndoe@example.com
 - Slack
 - Draw.io
 - OBS
-- GIMP
 - Zoom
 - Telegram
 - Firefox
