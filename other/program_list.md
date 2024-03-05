@@ -4,6 +4,9 @@ __Drivers__
 * PC
 * Printer
 * HDD
+* Camera
+* Nvidia
+* Realtek High Definition Audio Codecs Software
 
 __Archivers__
 * WinRAR
@@ -123,6 +126,7 @@ __Other__
 * Windows10Debloater
 * OpenVPN
 * VNC Viewer
+* MiniTool Partition Wizard
 
 __Actions__
 * Disable HDD parking APM via registry
@@ -130,3 +134,5 @@ __Actions__
 * Decrease Win Defender CPU usage via Local Group Policy Editor and PSH
 * Disable autorun
 * Fix MAC
+* Disable SysMain (Optional)
+* Clean system
