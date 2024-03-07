@@ -108,6 +108,7 @@ __DVD__
 __Diagnostics__
 * Aida64
 * CPU-Z
+* GPU-Z
 * HDDScan
 * CrystalDiskInfo
 * Core Temp
@@ -118,10 +119,14 @@ __Cleaners__
 * BleachBit
 * Revo Uninstaller
 
+__Phone__
+* Nokia Suite
+
 __Other__
 * HashCheck
 * HashTab
 * DirectX 9
+* MS Visual C++ redistributable 2008 - 2015
 * WinDefThreatsView
 * Windows10Debloater
 * OpenVPN
@@ -133,6 +138,7 @@ __Actions__
 * Turn off telemetry via Local Group Policy Editor
 * Decrease Win Defender CPU usage via Local Group Policy Editor and PSH
 * Disable autorun
+* Enable clipboard
 * Fix MAC
 * Disable SysMain (Optional)
 * Clean system
