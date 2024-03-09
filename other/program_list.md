@@ -6,6 +6,7 @@ __Drivers__
 * HDD
 * Camera
 * Nvidia
+* Vulkan
 * Realtek High Definition Audio Codecs Software
 
 __Archivers__
@@ -76,6 +77,7 @@ __Video__
 * OBS
 * Bandicam
 * Shotcut Video Editor
+* DaVinci Resolve
 * Ruffle SWF File Player
 
 __Photo__
@@ -145,3 +147,21 @@ __Actions__
 * Fix MAC
 * Disable SysMain (Optional)
 * Clean system
+
+__Typing__
+* [Open Metronome](https://sourceforge.net/projects/openmetronome/)
+* [TempoPerfect Metronome](https://www.nch.com.au/metronome/index.html)
+* [KeyBlaze Typing Tutor Software](https://www.nchsoftware.com/typingtutor/index.html)
+* [Kiran's Typing Tutor](https://www.kiranreddys.com/products/typing.html)
+* Klava okey
+* [Klavaro Touch Typing Tutor](https://klavaro.sourceforge.io/)
+* Mavis Beacon Teaches Typing DOS, 17, 20
+* [Rapid Typing Tutor](https://rapidtyping.com/)
+* [SES Type](https://ses-type.en.softonic.com/)
+* [Stamina](https://stamina.ru/)
+* [Tipp10](https://www.tipp10.com/en/)
+* [TypingMaster](https://www.typingmaster.com/)
+* BabyType
+* [VerseQ](https://verseq.ru/)
+* СОЛО на клавиатуре
+
