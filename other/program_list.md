@@ -75,8 +75,8 @@ __Video__
 * Kdenlive
 * OBS
 * Bandicam
-* OpenShot
-* SWF File Player
+* Shotcut Video Editor
+* Ruffle SWF File Player
 
 __Photo__
 * GIMP
@@ -95,6 +95,9 @@ __Virtualization__
 * BlueStacks
 * DOSBox
 * Fuse Spectrum Emulator
+
+__Torrent__
+* qBitTorrent
 
 __DVD__
 * Nero Burning ROM
